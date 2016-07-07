@@ -12,6 +12,7 @@
 		EFDECB831D1ED795003A0C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDECB811D1ED795003A0C15 /* Main.storyboard */; };
 		EFDECB851D1ED795003A0C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDECB841D1ED795003A0C15 /* Assets.xcassets */; };
 		EFDECB881D1ED795003A0C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDECB861D1ED795003A0C15 /* LaunchScreen.storyboard */; };
+		EFDECB921D1ED88F003A0C15 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDECB911D1ED88F003A0C15 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EFDECB841D1ED795003A0C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDECB871D1ED795003A0C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDECB891D1ED795003A0C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDECB911D1ED88F003A0C15 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EFDECB841D1ED795003A0C15 /* Assets.xcassets */,
 				EFDECB861D1ED795003A0C15 /* LaunchScreen.storyboard */,
 				EFDECB891D1ED795003A0C15 /* Info.plist */,
+				EFDECB911D1ED88F003A0C15 /* Character.swift */,
 			);
 			path = battleGame;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDECB921D1ED88F003A0C15 /* Character.swift in Sources */,
 				EFDECB801D1ED795003A0C15 /* ViewController.swift in Sources */,
 				EFDECB7E1D1ED795003A0C15 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				EFDECB8E1D1ED795003A0C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
